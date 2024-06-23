@@ -11,7 +11,7 @@
     font-family: "Bai Jamjuree", sans-serif;
 }
 
-/* primeira sessão */
+/* Primeira seção */
 #first-section{
     background-image: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
@@ -80,8 +80,10 @@
 }
 
 
-/* Segunda sessão */
+/* Segunda seção */
 
+
+/*Texto*/
 #second-section-text{
     display: flex;
     flex-direction: column;
@@ -109,34 +111,78 @@
 }
 
 
+
+/* Conteudo*/
 #features-content{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #features-content img{
-    width: 630px;
-    margin-left: 15px;
+    width: 530px;
 }
 
 #content {  
     margin: 70px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 18px;
 }
 
 #content h2{
     color: hsl(210, 10%, 33%);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 #content p{
-    width: 450px;
+    width: 400px;
     color: hsl(201, 11%, 66%);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 2;
 }
 
+/*Terceira seção */
+
+#third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+
+}
+
+#third-section h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#third-section p{
+    width: 600px;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+#third-section img{
+    width: 800px;
+}
+
+
+/*Quarta seção*/
+
+#fourth-section{
+   display: flex;
+   flex-direction: row; 
+}
